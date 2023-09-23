@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/forge/0.8.2/forge.all.min.js"></script>
+
+</head>
+<body>
+  <div id="background-image"></div>
+  <div id="background-overlay"></div>
+  <div id="background-pattern"></div>
+  <div id="login-form-container">
+    <div class="card" style="width: 400px;">
+      <div class="card-image">
+                <div class="notification" id="Xabar"></div>
+                <figure class="image is-4by3">
+                  <img src="images/logo1.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                 <div class="is-size-4 has-text-centered">Tizimga kirish</div>
+                </div>
+            
+                <div class="content">
+                  <div class="field">
+                      <p class="control has-icons-left has-icons-right">
+                        <input class="input is-rounded" type="text" placeholder="Login/Id" name="loginId" aria-required="true" aria-invalid="true">
+                        <span class="icon is-small is-left">
+                          <span class="material-symbols-outlined">account_circle</span>
+                        </span>
+                        <span class="icon is-small is-right">
+                          <i class="fas fa-check"></i>
+                        </span>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <p class="control has-icons-left">
+                        <input class="input is-rounded" type="password" placeholder="Parol" name="password" aria-required="true" aria-invalid="true">
+                        <span class="icon is-small is-left">
+                          <span class="material-symbols-outlined">lock</span>
+                        </span>
+                      </p>
+                    </div>
+                </div>
+                <div class="field">
+                  <button onclick="login()" class="button is-fullwidth is-primary is-rounded">Kirish</button>
+                </div>
+                <div class="field">
+                  <a href="#" class="title is-size-7 has-text-primary">Hisobingiz yo'qmi unda ro'yxatdan o'ting?</a>
+                </div>
+                
+              </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</body>
+</html>
